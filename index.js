@@ -1,5 +1,7 @@
 const inquirer = require("inquirer");
-// const generatePage = require("./README.md");
+const fs = require("fs");
+const generateReadme = require("./src/readmeTemplate.js");
+// const { writeFile, copyFile } = require("./utils/generate-readme");
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -41,7 +43,60 @@ const promptUser = () => {
       name: "test",
       message: "Please provide instructions on how to test this generator",
     },
+    {
+      type: "checkbox",
+      name: "license",
+      message: "Choose one of the following licenses",
+      choices: [
+        "ISC",
+        "MIT",
+        "BSD",
+        "Apache 2.0",
+        "GNU General Public License V3.0",
+      ],
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "Please provide your GitHub Username (Required)",
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Please enter your Github Username!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please provide your email",
+    },
   ]);
 };
 
-promptUser();
+const writeFile = readmePage => {
+  console.log(readmePage);
+  return fs.writeFileSync("Readme.md", readmePage);
+};
+
+promptUser()
+  .then(readmeData => {
+    return generateReadme(readmeData);
+  })
+  .then(readmePage => {
+    return writeFile(readmePage);
+  })
+  .then(writeFileResponse => {
+    console.log(writeFileResponse);
+    return copyFile();
+  })
+  .then(copyFileResponse => {
+    console.log(copyFileResponse);
+  })
+  .catch(err => {
+    console.log(err);
+  });
+
+// promptUser();
