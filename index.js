@@ -83,6 +83,7 @@ const writeFile = readmePage => {
 
 promptUser()
   .then(readmeData => {
+    console.log(readmeData);
     return generateReadme(readmeData);
   })
   .then(readmePage => {
