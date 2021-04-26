@@ -22,29 +22,29 @@
 ### Description
 <a name="description"></a>
     
->Project Name: Test project
+>Project Name: Test Project
     
->Project Description: This is a test
+>Project Description: This is a test project
     
 ### Installation
 <a name="installation"></a>
     
->Installation Guide: Use npm install
+>Installation Guide: Install using command line
     
 ### Usage Guide
 <a name="usage"></a>
     
->Usage: node index.js
+>Usage: run using node index.js
     
 ### Contribution Guidelines
 <a name="contribution"></a>
     
->Contribution Guidelines: Please contribute
+>Contribution Guidelines: Please contribute to this project
     
 ### Test Methods
 <a name="test"></a>
     
->Test Methods: Just test it in a viewer
+>Test Methods: Test using an editor
   
 ### License
 <a name="license"></a>
