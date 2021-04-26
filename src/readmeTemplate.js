@@ -91,9 +91,7 @@ const generateReadme = readmeData => {
     >Test Methods: ${readmeData.test}
     `;
 
-  return (
-    " " + licenceLogo + section1 + section2 + licenceInformation + questions
-  );
+  return section1 + section2 + licenceInformation + licenceLogo + questions;
 };
 
 module.exports = generateReadme;
