@@ -1,62 +1,63 @@
 
   
-    # README Generator 
+# README Generator 
   
-    ## Table of Contents:
-    [Description](#description)
+## Table of Contents:
+[Description](#description)
     
-    [Installation](#installation)
+[Installation](#installation)
     
-    [Usage](#usage)
+[Usage](#usage)
     
-    [Contribution](#contribution)
+[Contribution](#contribution)
     
-    [Test](#test)
+[Test](#test)
     
-    [License](#license)
+[License](#license)
     
-    [Questions](#questions)
+[Questions](#questions)
         
-      
+  
     
-    ### Description
-    <a name="description"></a>
+### Description
+<a name="description"></a>
     
-    >Project Name: Test Project
+>Project Name: Test Project
     
-    >Project Description: This is my test project
+>Project Description: This is my test project
     
-    ### Installation
-    <a name="installation"></a>
+### Installation
+<a name="installation"></a>
     
-    >Installation Guide: node index.js
+>Installation Guide: npm install
     
-    ### Usage Guide
-    <a name="usage"></a>
+### Usage Guide
+<a name="usage"></a>
     
-    >Usage: Follow the prompts
+>Usage: use node index.js
     
-    ### Contribution Guidelines
-    <a name="contribution"></a>
+### Contribution Guidelines
+<a name="contribution"></a>
     
-    >Contribution Guidelines: Please contribute
+>Contribution Guidelines: Please contribute
     
-    ### Test Methods
-    <a name="test"></a>
+### Test Methods
+<a name="test"></a>
     
-    >Test Methods: Use terminal to test
-      ### License
-    <a name="license"></a>
+>Test Methods: test using readme editor or previewer
+  
+### License
+<a name="license"></a>
 
-    >License: 
-    *            Boost
-    [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)  
+>License: 
+*            BSD
+    [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
 
-    ### Questions
-    <a name="questions"></a>
+### Questions
+<a name="questions"></a>
     
-    >Github Username: [test123](https://github.com/rsaad86) 
+>Github Username: [test](https://github.com/rsaad86) 
     
-    >Email: test@test.com 
+>Email: test@test.com 
     
     

@@ -21,20 +21,21 @@ const generateReadme = readmeData => {
 
   questions = `  
 
-    ### Questions
-    <a name="questions"></a>
+### Questions
+<a name="questions"></a>
     
-    >Github Username: [${readmeData.github}](https://github.com/rsaad86) 
+>Github Username: [${readmeData.github}](https://github.com/rsaad86) 
     
-    >Email: ${readmeData.email} 
+>Email: ${readmeData.email} 
     
     `;
 
-  licenceInformation = `  ### License
-    <a name="license"></a>
+  licenceInformation = `  
+### License
+<a name="license"></a>
 
-    >License: 
-    *            ${readmeData.license}
+>License: 
+*            ${readmeData.license}
     `;
 
   licenceKey = readmeData.license;
@@ -42,54 +43,54 @@ const generateReadme = readmeData => {
 
   section1 = `
   
-    # README Generator 
+# README Generator 
   
-    ## Table of Contents:
-    [Description](#description)
+## Table of Contents:
+[Description](#description)
     
-    [Installation](#installation)
+[Installation](#installation)
     
-    [Usage](#usage)
+[Usage](#usage)
     
-    [Contribution](#contribution)
+[Contribution](#contribution)
     
-    [Test](#test)
+[Test](#test)
     
-    [License](#license)
+[License](#license)
     
-    [Questions](#questions)
+[Questions](#questions)
         
-    `;
+`;
 
   section2 = `  
     
-    ### Description
-    <a name="description"></a>
+### Description
+<a name="description"></a>
     
-    >Project Name: ${readmeData.project}
+>Project Name: ${readmeData.project}
     
-    >Project Description: ${readmeData.description}
+>Project Description: ${readmeData.description}
     
-    ### Installation
-    <a name="installation"></a>
+### Installation
+<a name="installation"></a>
     
-    >Installation Guide: ${readmeData.installation}
+>Installation Guide: ${readmeData.installation}
     
-    ### Usage Guide
-    <a name="usage"></a>
+### Usage Guide
+<a name="usage"></a>
     
-    >Usage: ${readmeData.usage}
+>Usage: ${readmeData.usage}
     
-    ### Contribution Guidelines
-    <a name="contribution"></a>
+### Contribution Guidelines
+<a name="contribution"></a>
     
-    >Contribution Guidelines: ${readmeData.contribution}
+>Contribution Guidelines: ${readmeData.contribution}
     
-    ### Test Methods
-    <a name="test"></a>
+### Test Methods
+<a name="test"></a>
     
-    >Test Methods: ${readmeData.test}
-    `;
+>Test Methods: ${readmeData.test}
+`;
 
   return section1 + section2 + licenceInformation + licenceLogo + questions;
 };
