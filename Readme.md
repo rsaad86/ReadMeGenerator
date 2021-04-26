@@ -1,4 +1,4 @@
-
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
   
 # README Generator 
   
@@ -22,19 +22,19 @@
 ### Description
 <a name="description"></a>
     
->Project Name: Test Project
+>Project Name: Test project
     
->Project Description: This is my test project
+>Project Description: This is a test
     
 ### Installation
 <a name="installation"></a>
     
->Installation Guide: npm install
+>Installation Guide: Use npm install
     
 ### Usage Guide
 <a name="usage"></a>
     
->Usage: use node index.js
+>Usage: node index.js
     
 ### Contribution Guidelines
 <a name="contribution"></a>
@@ -44,19 +44,19 @@
 ### Test Methods
 <a name="test"></a>
     
->Test Methods: test using readme editor or previewer
+>Test Methods: Just test it in a viewer
   
 ### License
 <a name="license"></a>
 
 >License: 
-*            BSD
-    [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+*            Boost
+      
 
 ### Questions
 <a name="questions"></a>
     
->Github Username: [test](https://github.com/rsaad86) 
+>Github Username: [test123](https://github.com/rsaad86) 
     
 >Email: test@test.com 
     

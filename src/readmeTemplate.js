@@ -92,7 +92,7 @@ const generateReadme = readmeData => {
 >Test Methods: ${readmeData.test}
 `;
 
-  return section1 + section2 + licenceInformation + licenceLogo + questions;
+  return licenceLogo + section1 + section2 + licenceInformation + questions;
 };
 
 module.exports = generateReadme;
